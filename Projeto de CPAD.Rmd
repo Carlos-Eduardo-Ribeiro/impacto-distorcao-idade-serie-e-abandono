@@ -1,0 +1,68 @@
+---
+title: "📊 Análise dos Indicadores Educacionais Brasileiros"
+author: "Carlos Eduardo Ribeiro"
+date: "2025-11-26"
+output:
+  html_document:
+    theme: flatly
+    highlight: tango
+    toc: true
+    toc_float: true
+    df_print: paged
+    css: "estilo.css"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 📘 Introdução
+
+Este projeto tem como objetivo analisar os Indicadores Educacionais Brasileiros, buscando compreender padrões, avanços e desigualdades presentes na educação do país.
+A análise irá contemplar variáveis relacionadas ao acesso, permanência e desempenho dos estudantes, permitindo uma visão ampla da qualidade educacional no Brasil.
+
+<h>
+
+## 🧪 Metodologia
+
+A metodologia adotada na análise inclui:
+
+1. **Coleta dos Dados**
+
+- Os dados serão obtidos diretamente do portal do INEP, no conjunto de Indicadores Educacionais.
+
+- Após o download, os arquivos serão tratados para garantir integridade e padronização.</br></br>
+
+
+2. **Limpeza e Preparação dos Dados**
+
+- Ajuste de nomes de colunas
+
+- Tratamento de valores ausentes
+
+- Conversão de tipos (numérico, fator, etc.)</br></br>
+
+
+3. **Análises Realizadas**
+
+- Estatísticas descritivas
+
+- Análise exploratória (EDA)
+
+- Visualização de dados (gráficos comparativos, séries temporais, mapas — quando aplicável)
+
+- Interpretação dos resultados </br></br>
+
+
+4. **Ferramentas Utilizadas**
+
+- Linguagem R
+
+- Pacotes como dplyr, ggplot2, readr, tidyr, entre outros.
+
+## 📂 Fonte dos Dados
+
+Todos os dados utilizados neste projeto estão disponíveis publicamente no portal do INEP, na área de dados abertos:
+
+## 🔗 Indicadores Educacionais — INEP
+https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais
