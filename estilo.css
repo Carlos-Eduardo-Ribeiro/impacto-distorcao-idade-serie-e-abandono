@@ -1,6 +1,11 @@
 <script>
 
-h1.title {
+html {
+  background-color: #EEF2F7 !important;
+}
+
+
+title {
     background: #000 !important;
     color: #fff !important;
     padding: 20px;
