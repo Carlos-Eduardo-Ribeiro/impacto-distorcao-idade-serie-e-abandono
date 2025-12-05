@@ -1,5 +1,22 @@
 <script>
 
+<<<<<<< HEAD
+=======
+html {
+  background-color: #EEF2F7 !important;
+}
+
+
+title {
+    background: #000 !important;
+    color: #fff !important;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 700;
+}
+
+>>>>>>> a26ce53359691bd119c42299c9e00915d33d18b1
 .caixa-intro {
   background: #2c3e50;
   padding: 20px;
